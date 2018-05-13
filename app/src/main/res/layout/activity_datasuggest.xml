@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eff3fb"
+    android:orientation="vertical">
+
+    <include layout="@layout/base_header_layout" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="436dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="4dp"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="4dp"
+                        android:text="健康建议"
+                        android:textColor="#888888"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dip"
+                            android:id="@+id/food"
+                            android:text="饮食: "
+                            android:textSize="17sp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/food"
+                            android:textSize="17sp"
+                            android:text="今日您的运动量不足，适当摄入肉类、鸡蛋、牛奶等优质蛋白质，不仅能增强体力，旺盛精力，还因优质蛋白质中富含可使大脑清醒和警觉的酪氨基酸。提倡适量食用豆制品，但应避免一次性大量摄入高蛋白食物，否则会造成营养过剩，增加肾脏负担。"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dip"
+                            android:id="@+id/sport"
+                            android:text="运动: "
+                            android:textSize="17sp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/sport"
+                            android:textSize="17sp"
+                            android:text="今日温度较高，建议进行慢跑，需要注意做好防晒、防中暑的工作"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

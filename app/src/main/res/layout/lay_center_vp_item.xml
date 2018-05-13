@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@drawable/lv_item_sel_color"
+    android:clickable="true" >
+
+    <ImageView
+        android:id="@+id/ivViewPageItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/tvViewPageItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:padding="5dip"
+        android:layout_marginBottom="20dip"
+        android:background="#0000"
+        android:text="aivoaindvasknvajfdoajfodnaoinefsahfdn"
+        android:textColor="#ffff"
+        android:textSize="16dip" />
+
+</RelativeLayout>

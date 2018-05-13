@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xzmc.zzzt.privateprotect.view.HeaderLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/headerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="vertical" />

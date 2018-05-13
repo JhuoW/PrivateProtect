@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="徐州医学院医学信息学院"
+        android:id="@+id/tv_name"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_marginBottom="144dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2013级物联网工程  卓伟"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="29dp"
+        android:layout_alignTop="@+id/tv_name"
+        android:layout_alignLeft="@+id/tv_name"
+        android:layout_alignStart="@+id/tv_name" />
+</RelativeLayout>
